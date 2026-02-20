@@ -88,16 +88,16 @@
 
 Структура проекта:
 
-...
-├── conf
-│   ├── postgres_b
-│   │   └── [shards.sql](file/task3_v1/conf/postgres_b/start.sql)
-│   ├── postgres_b1
-│   │   └── [shards.sql](file/task3_v1/conf/postgres_b1/start.sql)
-│   ├── postgres_b2
-│   │   └── [shards.sql](file/task3_v1/conf/postgres_b2/start.sql)
-│   └── postgres_b3
-│       └── [shards.sql](file/task3_v1/conf/postgres_b3/start.sql)
+...\
+├── conf\
+│   ├── postgres_b\
+│   │   └── [shards.sql](file/task3_v1/conf/postgres_b/start.sql)\
+│   ├── postgres_b1\
+│   │   └── [shards.sql](file/task3_v1/conf/postgres_b1/start.sql)\
+│   ├── postgres_b2\
+│   │   └── [shards.sql](file/task3_v1/conf/postgres_b2/start.sql)\
+│   └── postgres_b3\
+│       └── [shards.sql](file/task3_v1/conf/postgres_b3/start.sql)\
 └── [docker-compose.yml](file/task3_v1/conf/docker-compose.yml)
 
 Заполнение базы данных
@@ -141,9 +141,9 @@ select * from books_3;
 Структура проекта:
 
 ...
-├── conf
-│   └── postgres_b
-│       └── [shards.sql](file/task3_v2/conf/postgres_b/shards.sql)
+├── conf\
+│   └── postgres_b\
+│       └── [shards.sql](file/task3_v2/conf/postgres_b/shards.sql)\
 └── [docker-compose.yml](file/task3_v2/docker-compose.yml)
 
 ![](pic/PIC05.PNG)

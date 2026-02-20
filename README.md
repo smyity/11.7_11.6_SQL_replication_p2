@@ -139,7 +139,7 @@ select * from books_3;
 
 Структура проекта:
 
-...
+...\
 ├── conf\
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── postgres_b\
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── [shards.sql](file/task3_v2/conf/postgres_b/shards.sql)\

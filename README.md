@@ -87,7 +87,7 @@
 - Горизонтальное шардирование (взят пример из лекции)
 
 Структура проекта:
-
+<pre>
 ...\
 ├── conf\
 │   ├── postgres_b\
@@ -99,6 +99,7 @@
 │   └── postgres_b3\
 │       └── [shards.sql](file/task3_v1/conf/postgres_b3/start.sql)\
 └── [docker-compose.yml](file/task3_v1/conf/docker-compose.yml)
+</pre>
 
 Заполнение базы данных
 

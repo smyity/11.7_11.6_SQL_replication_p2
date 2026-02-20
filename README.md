@@ -89,13 +89,13 @@
 Структура проекта:
 ...\
 ├── conf\
-│&nbsp;&nbsp;&nbsp;├── postgres_b\
-│   │   └── [shards.sql](file/task3_v1/conf/postgres_b/start.sql)\
-│   ├── postgres_b1\
-│   │   └── [shards.sql](file/task3_v1/conf/postgres_b1/start.sql)\
-│   ├── postgres_b2\
-│   │   └── [shards.sql](file/task3_v1/conf/postgres_b2/start.sql)\
-│&nbsp;&nbsp;&nbsp;└── postgres_b3\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── postgres_b\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── [shards.sql](file/task3_v1/conf/postgres_b/start.sql)\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── postgres_b1\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── [shards.sql](file/task3_v1/conf/postgres_b1/start.sql)\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── postgres_b2\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── [shards.sql](file/task3_v1/conf/postgres_b2/start.sql)\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── postgres_b3\
 │       └── [shards.sql](file/task3_v1/conf/postgres_b3/start.sql)\
 └── [docker-compose.yml](file/task3_v1/conf/docker-compose.yml)
 
